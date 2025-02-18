@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio - Bilingual</title>
+
+    <!-- Devicon (pentru iconițe limbaje / tool-uri, dacă vrei) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!-- Font Awesome (pentru iconițele din navbar) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-papNM9O8C1KBlfMKHgx9FZecJd+et/b6FlaNZe2F9G4LXK3iw2smN0RqT2S/EkEzZ8xv1sG1+Kq2R4R9M8B+1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fișierul local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar (din pen-ul NPWxxge) -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">MyPortfolio</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              <i class="fas fa-home"></i>
+              <span class="link-text nav-home">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="fas fa-user"></i>
+              <span class="link-text nav-about">About Me</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="fas fa-code"></i>
+              <span class="link-text nav-skills">Skills</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              <i class="fas fa-folder-open"></i>
+              <span class="link-text nav-projects">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              <span class="link-text nav-contact">Contact</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <button class="lang-toggle">
+              <i class="fas fa-globe"></i>
+              <span class="lang-text">EN</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home + About Me (din pen-ul NPWxxge) -->
+    <div class="main-content" id="home">
+      <div class="content">
+        <div class="content__container">
+          <!-- Text animat: [Hello ... I'm ...] -->
+          <p class="content__container__text">
+            <span class="animated-wrapper">
+              <span class="static-text">Hello</span>
+              <span class="dynamic-text-wrapper">
+                <span class="dynamic-list">
+                  <span class="dynamic-list__item">world !</span>
+                  <span class="dynamic-list__item">bob !</span>
+                  <span class="dynamic-list__item">users !</span>
+                  <span class="dynamic-list__item">everybody !</span>
+                </span>
+              </span>
+            </span>
+            &nbsp;<span class="im-text">I'm</span>
+          </p>
+          <!-- Semnătură (linia următoare) -->
+          <p class="signature">
+            <br />
+            <span class="signature-name">Manole Elisei.</span>
+          </p>
+
+          <!-- Secțiunea About Me -->
+          <div class="about-me" id="about">
+            <p class="about-text">
+              Sunt un full stack developer pasionat de tehnologie, cu expertiză în front-end și back-end. Îmi plac provocările care mă determină să inovez și să evoluez constant.
+            </p>
+            <button class="contact-btn talk-btn">Hai să discutăm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secțiunea Skills (din pen-ul MYWKyRr) imediat după About Me -->
+    <section class="skills-section" id="skills">
+      <h2 class="section-title skills-title">&lt;/Skills&gt;</h2>
+      <div class="skills-container">
+        <div class="skills-content">
+          <p class="skills-p1">
+            Salut! Numele meu este Elisei M. și sunt full stack developer.
+            Îmi place să creez aplicații web de la zero și să le aduc la viață 
+            în browser. Lucrul atât cu front-end cât și cu back-end mi-a oferit 
+            o perspectivă completă asupra procesului de dezvoltare.
+          </p>
+          <p class="skills-p2">
+            În prezent, mă concentrez pe proiecte care îmbină designul creativ 
+            cu funcționalitatea robustă. Îmi place să experimentez cu noi tehnologii 
+            și să găsesc soluții ingenioase pentru provocările de zi cu zi.
+          </p>
+          <p class="skills-p3">
+            De asemenea, am o pasiune pentru învățare continuă și pentru împărtășirea 
+            cunoștințelor cu alți pasionați de tehnologie.
+          </p>
+        </div>
+        <div class="skills-image">
+          <img
+            src="https://via.placeholder.com/300x400"
+            alt="Profil Elisei M."
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Created by Elisei M. |
+        <a href="https://github.com/elisei-m" target="_blank">GitHub Profile</a>
+      </p>
+    </footer>
+
+    <!-- Script local -->
+    <script src="script.js"></script>
+  </body>
+</html>
